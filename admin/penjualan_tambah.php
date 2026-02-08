@@ -3,7 +3,7 @@ include 'header.php';
 include '../koneksi.php';
 
 $barang = mysqli_query($koneksi,"SELECT * FROM barang");
-$user   = mysqli_query($koneksi,"SELECT * FROM user");
+$user   = mysqli_query($koneksi,"SELECT * FROM user WHERE user_status = 2");
 ?>
 
 <div class="container">

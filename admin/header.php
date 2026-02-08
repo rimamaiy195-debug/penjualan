@@ -29,6 +29,7 @@
 					<li><a href="user.php"><i class="glyphicon glyphicon-user">User</i></a></li>
 					<li><a href="penjualan.php"><i class="glyphicon glyphicon-shopping-cart">Penjualan</i></a></li>
 					<li><a href="barang.php"><i class="glyphicon glyphicon-th-large">Barang</i></a></li>
+					<li><a href="laporan.php"><i class="glyphicon glyphicon-list-alt">Laporan</i></a></li>
 					<li><a href="logout.php"><i class="glyphicon glyphicon-log-out">Log Out</i></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right"><li><p class="navbar-text">Halo, <b><?php echo $_SESSION['username'];?></b>!</p></li>
