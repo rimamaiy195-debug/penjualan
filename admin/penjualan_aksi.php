@@ -22,8 +22,8 @@ if($jumlah > $stok){
 
 $total_harga = $harga * $jumlah;
 mysqli_query($koneksi,"
-  INSERT INTO penjualan (id_barang,total_harga,tgl_jual,user_id)
-  VALUES ('$id_barang','$total_harga','$tgl_jual','$user_id')
+  INSERT INTO penjualan (id_barang, jumlah, total_harga, tgl_jual, user_id)
+VALUES ('$id_barang','$jumlah','$total_harga','$tgl_jual','$user_id')
 ");
 
 mysqli_query($koneksi,"
